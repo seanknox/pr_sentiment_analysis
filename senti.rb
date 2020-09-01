@@ -3,6 +3,7 @@
 require 'octokit'
 require 'azure_cognitiveservices_textanalytics'
 
+
 TEXT_ANALYTICS_SUBSCRIPTION_KEY = ENV['TEXT_ANALYTICS_SUBSCRIPTION_KEY']
 TEXT_ANALYTICS_ENDPOINT = ENV['TEXT_ANALYTICS_ENDPOINT'] || 'https://westcentralus.api.cognitive.microsoft.com'
 GITHUB_ACCESS_TOKEN = ENV['GITHUB_ACCESS_TOKEN']
