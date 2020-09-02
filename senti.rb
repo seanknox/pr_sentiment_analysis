@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "octokit"
+require 'octokit'
 require "azure_cognitiveservices_textanalytics"
 
 TEXT_ANALYTICS_SUBSCRIPTION_KEY = ENV['TEXT_ANALYTICS_SUBSCRIPTION_KEY']
