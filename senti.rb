@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-# woot
-
 require "octokit"
 require "azure_cognitiveservices_textanalytics"
 
